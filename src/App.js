@@ -1,20 +1,13 @@
 import React from 'react';
 import './App.css'
-
-import HookCounter9 from './components/HookCounter9';
-
-
-
-
-
+import Counter2 from './components/Counter2';
 
 
 function App() {
   return (
     <div className="App">
       <h1>Jocatins</h1>
-      
-      <HookCounter9/>
+      <Counter2/>
     </div>
   );
 }
